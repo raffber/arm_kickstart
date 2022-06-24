@@ -1,0 +1,19 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.generator": "Ninja",
+    "editor.formatOnSave": true,
+    "clang-tidy.buildPath": "build",
+    "clang-tidy.lintOnSave": true,
+    "clang-tidy.compilerArgs": [
+        "-I/usr/include/newlib"
+    ],
+    "files.autoSave": "onFocusChange",
+    "clangd.arguments": [
+        "-background-index",
+        "--completion-style=detailed",
+        "-compile-commands-dir=build",
+        "-cross-file-rename",
+        "-header-insertion=never",
+    ],
+    "cortex-debug.showRTOS": true,
+}

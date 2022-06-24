@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "ms-vscode.cmake-tools",
+        "twxs.cmake",
+        "marus25.cortex-debug",
+        "ms-azuretools.vscode-docker",
+        "xaver.clang-format",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "vadimcn.vscode-lldb",
+        "pascalsenn.keyboard-quickfix",
+        "rioj7.command-variable",
+        "notskm.clang-tidy",
+        "mhutchie.git-graph"
+    ]
+}

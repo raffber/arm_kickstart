@@ -1,0 +1,36 @@
+{
+  "product_name": "example_product_name",
+  "blocking": true,
+  "images": [
+    {
+      "fw_id": 1,
+      "btl_path": "btl.hex",
+      "app_path": "app.hex",
+      "app_address": {
+        "begin": 65536,
+        "end": 1507327
+      },
+      "btl_address": {
+        "begin": 0,
+        "end": 65535
+      },
+      "include_in_script": true,
+      "header_offset": 8,
+      "hex_file_format": "IntelHex",
+      "device_config": {
+        "word_addressing": false,
+        "endianness": "Little",
+        "page_size": 4096
+      },
+      "timings": {
+        "data_send": 0,
+        "crc_check": 0,
+        "data_send_done": 100,
+        "leave_btl": 0,
+        "erase_time": 200
+      },
+      "write_data_size": 64
+    }
+  ],
+  "time_state_transition": 10
+}

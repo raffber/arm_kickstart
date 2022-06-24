@@ -1,0 +1,12 @@
+Checks:          'clang-diagnostic-*,clang-analyzer-*,cert-*,readability-*,portability-*,misc-*,-readability-magic-numbers,-readability-identifier-length'
+WarningsAsErrors: true
+HeaderFilterRegex: ''
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+CheckOptions:
+  - key:             cert-dcl16-c.NewSuffixes
+    value:           'L;LL;LU;LLU'
+  - key:             cert-oop54-cpp.WarnOnlyIfThisHasSuspiciousField
+    value:           '0'
+  - key:             google-readability-function-size.StatementThreshold
+    value:           '800'

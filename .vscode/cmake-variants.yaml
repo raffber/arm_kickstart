@@ -1,0 +1,16 @@
+target:
+  default: debug
+  choices:
+    test:
+      short: test
+      settings:
+        TARGET: test
+      buildType: Debug
+    release:
+      short: release
+      settings:
+      buildType: Release
+    debug:
+      short: debug
+      settings:
+      buildType: Debug
