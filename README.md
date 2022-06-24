@@ -12,7 +12,22 @@ you can use this project. It will build but just produce non-working target bina
 
 ## Directory Structure
 
-TODO: ....
+### Source Directories
+
+ * `app` - Contains the main application sources to be compiled for both the tests and the target
+ * `app/target` - Entry point for target application.
+ * `app/test` - Entry point for test application.
+ * `btl` - Target-only executable serving as a bootloader.
+ * `hal/target` - The hardware abstraction layer that implements the interface between the app and the hardware
+ * `hal/test` - The hardware abstraction layer to mock the actual HAL on the target
+ * `target` - Target specific sources. Usually coming from the manufacturer. May contain interrupt vectors and startup code.
+
+### Auxiliary Directories
+
+ * `.devcontainer`, `.vscode` - VSCode settings and environment. Also take note of the `Dockerfile` in `.devcontainer`, which is also used for CI.
+ * `cmake` - Source files for the build process
+ * `jenkins` - Shell scripts for CI/CD pipeline
+ * `tools` - Contains the merge_tool installed as a binary
 
 ## Docker on Windows
 
